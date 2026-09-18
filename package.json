@@ -1,0 +1,12 @@
+{
+  "name": "videoplay",
+  "version": "1.0.0",
+  "description": "a backend video project",
+  "license": "ISC",
+  "author": "ravi",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
