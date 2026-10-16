@@ -455,7 +455,7 @@ const getWatchHistory = asyncHandler(async (req, res) => {
                 from: "videos",
                 localField: "watchHistory",
                 foreignField: "_id",
-                as: "watchedVideos"
+                as: "watchedHistory",
                 pipeline: [
                     {
                         $lookup: {
@@ -500,7 +500,6 @@ export {
     getCurrentUser,
     updateAccountDetails,
     updateUserAVatar,
-    updateUserCoverImage,
     updateUserCoverImage,
     getUserChannelProfile,
     getWatchHistory
